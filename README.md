@@ -3,6 +3,12 @@
 Boilerplate for static site with node-sass and post-css setup.
 
 ## To install:
+#### Option 1: Use Github Templates
+1. Click the 'Use this template' button on the repo.
+2. Enter repo details and create a new repo using this template.
+3. After cloning your repo, initialize with `npm install`
+
+#### Option 2: Manual
 ```
 git clone https://github.com/shivanarrthine/simple-site-boilerplate.git
 cd simple-site-boilerplate
