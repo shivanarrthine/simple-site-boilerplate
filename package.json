@@ -1,0 +1,20 @@
+{
+  "name": "simple-site-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path sass sass/styles.sass public/stylesheets/styles.css",
+    "post-css": "npx postcss public/stylesheets/styles.css --config postcss.config.js -o public/stylesheets/styles.min.css",
+    "watch-css": "nodemon -e sass -x \"npm run build-css && npm run post-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "postcss-cli": "^7.1.1"
+  }
+}
