@@ -16,8 +16,9 @@ npm run watch-css
 ```
 
 ## What's in it?
-- Static html page
+- Static html page with basic meta tags
 - Sass files compiled with node-sass and nodemon
 - PostCSS setup
 - Autoprefixer and CSS minification
 - CSS Reset
+- Base CSS styling (eg: tokens, typography)
